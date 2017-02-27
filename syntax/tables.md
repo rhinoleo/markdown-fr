@@ -1,31 +1,31 @@
-# Tableaux
+# Arrays
 
 
-Les tableaux ne font pas partie du coeur de la spec Markdown, mais ils font partie de GFM (GitHub Flavored Markdown) et Markdown Here les supporte.
+Arrays are not part of the heart of the spec Markdown, but they are part of GFM (GitHub Flavored Markdown) and Markdown Here includes them.
 
-Voici un exemple de tableau avec le résultat dessous :
+Here is an example of an array with the result below :
 
-    | Les tableaux  | Sont            | Cools |
+    | Arrays        | Are             | Cools |
     | ------------- |:---------------:| -----:|
-    | col 3 est     | alignée à droite| $1600 |
-    | col 2 est     | centrée         |   $12 |
-    | les zèbres    | sont swag       |    $1 |
+    | col 3 est     |    right aligned| $1600 |
+    | col 2 est     | centered        |   $12 |
+    | zebras        | are swag        |    $1 |
 
 
-| Les tableaux  | Sont            | Cools |
+| Arrays        | Are             | Cools |
 | ------------- |:---------------:| -----:|
-| col 3 est     | alignée à droite| $1600 |
-| col 2 est     | centrée         |   $12 |
-| les zèbres    | sont swag       |    $1 |
+| col 3 est     |    right aligned| $1600 |
+| col 2 est     | centered        |   $12 |
+| zebras        | are swag        |    $1 |
 
-Les deux points peuvent être utilisés pour aligner les colonnes
+Colons can be used to align the columns
 
-Les traits (|) sont optionnels et vous n'avez pas besoin de faire que le Markdown raw s'alligne parfaitement. Vous pouvez aussi utiliser de l'inline Markdown.
+Pipes (|) are optional and you don't need to do that raw Markdown aligns perfectly. You can also use inline Markdown.
 
-Exemple:
+Example:
 
-    Markdown | Assez | Moche
+    Pretty | Ugly | Markdown
     --- | --- | ---
-    *Apparait* | `toujours` | **bien**
+    *Always* | `appears` | **good**
     1 | 2 | 3
 
